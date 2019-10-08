@@ -1,0 +1,4 @@
+C:\Users\admin\Documents\Projects\TemplateMVC\TemplateMVC.Ent\bin\Debug\TemplateMVC.Ent.dll
+C:\Users\admin\Documents\Projects\TemplateMVC\TemplateMVC.Ent\bin\Debug\TemplateMVC.Ent.pdb
+C:\Users\admin\Documents\Projects\TemplateMVC\TemplateMVC.Ent\obj\Debug\TemplateMVC.Ent.dll
+C:\Users\admin\Documents\Projects\TemplateMVC\TemplateMVC.Ent\obj\Debug\TemplateMVC.Ent.pdb

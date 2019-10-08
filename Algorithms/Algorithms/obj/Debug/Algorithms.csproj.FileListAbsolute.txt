@@ -1,0 +1,10 @@
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\obj\Debug\Algorithms.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\obj\Debug\Algorithms.Form1.resources
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.GenerateResource.cache
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\obj\Debug\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\admin\Documents\Projects\GitHubLabs\Labs\Algorithms\Algorithms\obj\Debug\WindowsFormsApplication1.pdb

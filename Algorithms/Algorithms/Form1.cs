@@ -85,9 +85,34 @@ namespace Algorithms
 
             //int i = queensAttack(5,3,4,3,x);
 
-            int i = chocolateFeast(6, 2, 2);
+            //int i = chocolateFeast(6, 2, 2);
+
+            multiplicaArray(new int[] { 1, 2, 3 }, 2);
 
         }
+
+        static int[] multiplicaArray(int[] arr, int qtd)
+        {
+            int[] aux = new int[arr.Length * qtd];
+
+            int a = 0;
+
+            for(int i=0;i<aux.Length;i++)
+            {
+                if (i % arr.Length == 0)
+                    a = 0;
+
+                aux[i] = arr[a];
+
+                a++;
+            }
+
+            return aux;
+        }
+
+
+
+
 
         static int chocolateFeast(int n, int c, int m)
         {
