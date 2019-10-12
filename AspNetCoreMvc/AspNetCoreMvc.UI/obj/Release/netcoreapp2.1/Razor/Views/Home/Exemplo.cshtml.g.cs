@@ -57,7 +57,7 @@ using AspNetCoreMvc.UI.Models;
             WriteLiteral("<div class=\"row\">\r\n    <div class=\"col-md-3\">\r\n        <h3>Grid Detalhe</h3>\r\n        ");
             EndContext();
             BeginContext(86, 311, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6e29f1d2ecc241278266257d5bf20a26", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a770a9f1f44b4fa88cb192652aa2cb99", async() => {
                 BeginContext(133, 260, true);
                 WriteLiteral(@"
             <div class=""row"">
@@ -86,7 +86,7 @@ using AspNetCoreMvc.UI.Models;
             WriteLiteral("\r\n    </div>\r\n    <div class=\"col-md-3\">\r\n        <h3>Grid Paginada</h3>\r\n        ");
             EndContext();
             BeginContext(479, 319, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "772f0c3b72a046bdaa067dec143ee8d0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "506ba9d393d948afa9c49213228745d6", async() => {
                 BeginContext(530, 264, true);
                 WriteLiteral(@"
             <div class=""row"">
@@ -115,7 +115,7 @@ using AspNetCoreMvc.UI.Models;
             WriteLiteral("\r\n    </div>\r\n    <div class=\"col-md-3\">\r\n        <h3>Menus</h3>\r\n        ");
             EndContext();
             BeginContext(872, 314, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "450356b6a7e044efa6749fb4ee8bd7a3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dcec931046d44668a5549235d16eeb19", async() => {
                 BeginContext(918, 264, true);
                 WriteLiteral(@"
             <div class=""row"">
