@@ -1,0 +1,5 @@
+C:\Users\admin\Documents\Projects\TemplateMVC\TemplateMVC.VM\bin\Debug\TemplateMVC.VM.dll
+C:\Users\admin\Documents\Projects\TemplateMVC\TemplateMVC.VM\bin\Debug\TemplateMVC.VM.pdb
+C:\Users\admin\Documents\Projects\TemplateMVC\TemplateMVC.VM\obj\Debug\TemplateMVC.VM.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Projects\TemplateMVC\TemplateMVC.VM\obj\Debug\TemplateMVC.VM.dll
+C:\Users\admin\Documents\Projects\TemplateMVC\TemplateMVC.VM\obj\Debug\TemplateMVC.VM.pdb
