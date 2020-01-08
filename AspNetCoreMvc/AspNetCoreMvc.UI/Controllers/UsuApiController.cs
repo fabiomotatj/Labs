@@ -22,8 +22,8 @@ namespace AspNetCoreMvc.UI.Controllers
         }
 
         // GET: api/UsuApi
-        [HttpGet]
-        public IEnumerable<UsuarioEnt> Get()
+        
+        public IEnumerable<UsuarioEnt> Get(string nome)
         {
             XmlSerializer xs = new XmlSerializer(typeof(List<UsuarioEnt>));
 
@@ -33,7 +33,10 @@ namespace AspNetCoreMvc.UI.Controllers
 
             s.Close();
 
-            return us;
+            if (nome == "" || nome == null)
+                return us;
+            else
+                return us.Where(x => x.Nome.ToUpper().Contains(nome.ToUpper()));
         }
 
         // GET: api/UsuApi/5
