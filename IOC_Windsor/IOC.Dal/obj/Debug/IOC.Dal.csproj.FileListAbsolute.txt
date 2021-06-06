@@ -1,0 +1,11 @@
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\bin\Debug\IOC.Dal.dll
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\bin\Debug\IOC.Dal.pdb
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\bin\Debug\IOC.Ent.dll
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\bin\Debug\IOC.VM.dll
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\bin\Debug\IOC.Ent.pdb
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\bin\Debug\IOC.VM.pdb
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\obj\Debug\IOC.Dal.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\obj\Debug\IOC.Dal.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\obj\Debug\IOC.Dal.csproj.CopyComplete
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\obj\Debug\IOC.Dal.dll
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Dal\obj\Debug\IOC.Dal.pdb

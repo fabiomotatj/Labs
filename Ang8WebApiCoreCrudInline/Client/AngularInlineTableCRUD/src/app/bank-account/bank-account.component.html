@@ -1,0 +1,51 @@
+<blockquote class="blockquote md-5">
+  <h2>
+    My Bank Accounts
+  </h2>
+  <footer class="blockquote-footer">
+    Using Inline Edit with Asp.Net Core and Angular 8!!!
+  </footer>
+</blockquote>
+
+<div class="grid-table">
+  <div class="thead">
+    <div class="tr">
+      <div class="td">Acount No</div>
+      <div class="td">Acount Holder</div>
+      <div class="td">Bank</div>
+      <div class="td">IFSC</div>
+      <div class="td">
+        <button type="button" class="btn btn-success" (click)="addBankAccountForm()">
+          Add
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="tbody">
+    <form (submit)="recordSubmit(fg)" class="tr" [formGroup]="fg" *ngFor="let fg of bankAcountsForms.controls; let i = index">
+        <div class="td">
+          <input class="form-control" formControlName="AccountNumber">
+        </div>
+        <div class="td">
+          <input class="form-control" formControlName="AccountHolder">
+        </div>
+        <div class="td">
+          <select class="form-control" formControlName="BankID">
+            <option value=0>Select</option>
+            <option *ngFor="let item of bankList" [value]=item.BankID>{{item.BankName}}</option>
+          </select>
+        </div>
+        <div class="td">
+          <input class="form-control" formControlName="IFSC">
+        </div>
+        <div class="td">
+          <button type="submit" class="btn btn-success" [disabled]="fg.invalid">
+            {{fg.get("BankAccountID").value==0?'Submit':"Update"}}
+          </button>
+          <button type="submit" class="btn btn-danger" (click)="onDelete(fg.get('BankAccountID').value,i)">
+            Del
+          </button>
+        </div>
+    </form>
+  </div>
+</div>

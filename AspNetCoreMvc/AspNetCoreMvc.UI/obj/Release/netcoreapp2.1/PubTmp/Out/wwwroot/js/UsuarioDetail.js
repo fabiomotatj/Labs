@@ -4,7 +4,7 @@ $(document).ready(function () {
     $($("#userForm")[0].elements["Cpf"]).mask("000.000.000-00")
     $($("#userForm")[0].elements["Telefone"]).mask("(00)00000-0000")
 
-    LoadGrid()
+    LoadGrid('')
 
     $("#userForm").submit(function (a) {
 
@@ -15,6 +15,21 @@ $(document).ready(function () {
             Insert(fd);
         else
             Update(fd, this.elements["Matricula"].value);
+    });
+
+    $('#userForm').on('keyup keypress', function (e) {
+        var keyCode = e.keyCode || e.which;
+        if (keyCode === 13) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
+    $($('#userForm')[0]["Pesquisa"]).on('keyup keypress', function (e) {
+        var keyCode = e.keyCode || e.which;
+        if (keyCode === 13) {
+            PesquisaPorNome();
+        }
     });
 
     $('#userForm')[0]["Cpf"].focus();
@@ -36,7 +51,7 @@ function Insert(json) {
         success: function (response) {
             if (response == "ok") {
                 limpaForm();
-                LoadGrid();
+                LoadGrid('');
             }
             else
                 alert(response);
@@ -57,7 +72,7 @@ function Update(json, mat) {
         success: function (response) {
             if (response == "ok") {
                 limpaForm();
-                LoadGrid();
+                LoadGrid('');
             }
             else
                 alert(response);
@@ -87,9 +102,20 @@ function LoadData(id) {
     });
 }
 
-function LoadGrid() {
+function PesquisaPorNome() {
+    var form = $("#userForm")[0];
+    LoadGrid(form.elements["Pesquisa"].value);
+}
+
+function LimpaPesquisa() {
+    var form = $("#userForm")[0];
+    form.elements["Pesquisa"].value = '';
+    LoadGrid('');
+}
+
+function LoadGrid(nome) {
     $.ajax({
-        url: caminho,
+        url: caminho + "?nome=" + nome,
         contentType: 'application/json',
         type: "GET",
         success: function (response) {
@@ -143,7 +169,7 @@ function DeletaUsu(id) {
         type: "DELETE",
         success: function (response) {
             if (response == "ok")
-                LoadGrid();
+                LoadGrid('');
 
         },
         failure: function (response) {

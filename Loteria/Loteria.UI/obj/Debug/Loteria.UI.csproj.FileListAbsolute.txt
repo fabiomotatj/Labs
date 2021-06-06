@@ -1,0 +1,10 @@
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\bin\Debug\Loteria.UI.exe.config
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\bin\Debug\Loteria.UI.exe
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\bin\Debug\Loteria.UI.pdb
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\obj\Debug\Loteria.UI.csprojAssemblyReference.cache
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\obj\Debug\Loteria.UI.FrmPrincipal.resources
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\obj\Debug\Loteria.UI.Properties.Resources.resources
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\obj\Debug\Loteria.UI.csproj.GenerateResource.cache
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\obj\Debug\Loteria.UI.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\obj\Debug\Loteria.UI.exe
+C:\Users\admin\Documents\Projects\Labs\Loteria\Loteria.UI\obj\Debug\Loteria.UI.pdb
