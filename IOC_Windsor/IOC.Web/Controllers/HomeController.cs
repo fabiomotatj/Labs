@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace IOC.Web.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
 
@@ -21,6 +23,19 @@ namespace IOC.Web.Controllers
         public HomeController()
         {
 
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public void Login()
+        {
+            FormsAuthentication.SetAuthCookie("fabio.mota", true);
+        }
+
+        [HttpGet]
+        public void Logout()
+        {
+            FormsAuthentication.SignOut();
         }
 
         public ActionResult Index()

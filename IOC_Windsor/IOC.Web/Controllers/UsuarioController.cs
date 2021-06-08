@@ -10,6 +10,7 @@ using System.Web.Http;
 
 namespace IOC.Web.Controllers
 {
+    [Authorize]
     public class UsuarioController : ApiController
     {
 
