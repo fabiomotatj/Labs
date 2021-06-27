@@ -53,6 +53,10 @@
       <Project>{f4bbf95b-845d-4c2b-8b49-b7f7f30f6285}</Project>
       <Name>IOC.Dal</Name>
     </ProjectReference>
+    <ProjectReference Include="..\IOC.Ent\IOC.Ent.csproj">
+      <Project>{3F7448F7-4F99-40E5-BF65-7A24D847ADB2}</Project>
+      <Name>IOC.Ent</Name>
+    </ProjectReference>
     <ProjectReference Include="..\IOC.VM\IOC.VM.csproj">
       <Project>{7f9bc504-053d-43ff-995b-ec8b4054658a}</Project>
       <Name>IOC.VM</Name>

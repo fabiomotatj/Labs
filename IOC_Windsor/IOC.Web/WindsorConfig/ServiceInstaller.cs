@@ -26,8 +26,8 @@ namespace IOC.Web.WindsorConfig
             var interfacesBus = buss.GetTypes().Where(x => x.Namespace == "IOC.Bus.Interfaces").ToList();
             var classesBus = buss.GetTypes().Where(x => x.Namespace == "IOC.Bus.Implement").ToList();
 
-            var interfacesDal = buss.GetTypes().Where(x => x.Namespace == "IOC.Dal.Interfaces").ToList();
-            var classesDal = buss.GetTypes().Where(x => x.Namespace == "IOC.Dal.Implement").ToList();
+            var interfacesDal = dal.GetTypes().Where(x => x.Namespace == "IOC.Dal.Interfaces").ToList();
+            var classesDal = dal.GetTypes().Where(x => x.Namespace == "IOC.Dal.Implement").ToList();
 
             log.Info("Capturou as Interfaces e classes a serem resolvidas");
 

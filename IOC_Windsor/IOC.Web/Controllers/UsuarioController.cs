@@ -1,16 +1,17 @@
 ﻿using IOC.Bus;
 using IOC.Bus.Implement;
 using IOC.Bus.Interfaces;
+using IOC.VM;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Script.Serialization;
 
 namespace IOC.Web.Controllers
 {
-    [Authorize]
     public class UsuarioController : ApiController
     {
 
@@ -27,10 +28,10 @@ namespace IOC.Web.Controllers
             
         }
 
-        public IEnumerable<string> Get()
+        [HttpGet]
+        public IEnumerable<UsuarioVM> GetPaged(int page, int take)
         {
-            //var usua = _usuario.GetUsuarios();
-            return new string[] { "value1", "value2" };
+            return _usuario.GetPaged(page, take);
         }
 
         // GET: api/Usuario/5
@@ -40,8 +41,10 @@ namespace IOC.Web.Controllers
         }
 
         // POST: api/Usuario
-        public void Post([FromBody]string value)
+        [HttpPost]
+        public void Post(UsuarioVM value)
         {
+            
         }
 
         // PUT: api/Usuario/5

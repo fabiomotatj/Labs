@@ -8,7 +8,6 @@ using System.Web.Security;
 
 namespace IOC.Web.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
     {
 

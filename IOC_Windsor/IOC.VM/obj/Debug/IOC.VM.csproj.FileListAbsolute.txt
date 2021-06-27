@@ -1,0 +1,6 @@
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.VM\bin\Debug\IOC.VM.dll
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.VM\bin\Debug\IOC.VM.pdb
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.VM\obj\Debug\IOC.VM.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.VM\obj\Debug\IOC.VM.dll
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.VM\obj\Debug\IOC.VM.pdb
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.VM\obj\Debug\IOC.VM.csprojAssemblyReference.cache

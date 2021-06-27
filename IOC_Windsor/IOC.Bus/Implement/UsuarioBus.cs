@@ -21,7 +21,26 @@ namespace IOC.Bus.Implement
 
         public List<UsuarioVM> GetUsuarios()
         {
-            return new List<UsuarioVM>();
+            try
+            {
+                return _usuarioDal.GetPaged(null,1,2);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<UsuarioVM> GetPaged(int page, int take)
+        {
+            try
+            {
+                return _usuarioDal.GetPaged(null, page, take);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

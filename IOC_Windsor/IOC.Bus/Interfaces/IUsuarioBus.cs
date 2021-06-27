@@ -10,5 +10,6 @@ namespace IOC.Bus.Interfaces
     public interface IUsuarioBus
     {
         List<UsuarioVM> GetUsuarios();
+        List<UsuarioVM> GetPaged(int page, int take);
     }
 }
