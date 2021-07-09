@@ -3,4 +3,3 @@ C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Ent\bin\Debug\IOC.Ent.pdb
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Ent\obj\Debug\IOC.Ent.csproj.CoreCompileInputs.cache
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Ent\obj\Debug\IOC.Ent.dll
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Ent\obj\Debug\IOC.Ent.pdb
-C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Ent\obj\Debug\IOC.Ent.csprojAssemblyReference.cache

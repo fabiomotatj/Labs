@@ -98,7 +98,6 @@ C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\Unity.Abstraction
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\Unity.Container.pdb
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\Antlr3.Runtime.pdb
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\obj\Debug\IOC.Web.csprojAssemblyReference.cache
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\obj\Debug\IOC.Web.csproj.CoreCompileInputs.cache
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\obj\Debug\IOC.Web.csproj.CopyComplete
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\obj\Debug\IOC.Web.dll
@@ -112,3 +111,6 @@ C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\EntityFramework.x
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\EntityFramework.SqlServer.xml
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\IOC.Ent.pdb
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\AutoMapper.xml
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\Swashbuckle.Core.dll
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\obj\Debug\IOC.Web.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Web\bin\IOC.Web.xml

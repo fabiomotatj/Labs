@@ -4,7 +4,6 @@ C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\IOC.Dal.dll
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\IOC.VM.dll
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\IOC.Dal.pdb
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\IOC.VM.pdb
-C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\obj\Debug\IOC.Bus.csprojAssemblyReference.cache
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\obj\Debug\IOC.Bus.csproj.CoreCompileInputs.cache
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\obj\Debug\IOC.Bus.csproj.CopyComplete
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\obj\Debug\IOC.Bus.dll
@@ -16,3 +15,6 @@ C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\IOC.Dal.dll
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\EntityFramework.xml
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\IOC.Ent.pdb
 C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\AutoMapper.xml
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\log4net.dll
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\bin\Debug\log4net.xml
+C:\Users\admin\Documents\Projects\Labs\IOC_Windsor\IOC.Bus\obj\Debug\IOC.Bus.csproj.AssemblyReference.cache

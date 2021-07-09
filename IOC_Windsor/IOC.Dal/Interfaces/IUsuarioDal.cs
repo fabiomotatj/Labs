@@ -14,5 +14,7 @@ namespace IOC.Dal.Interfaces
         List<UsuarioVM> GetUsuarios();
         List<UsuarioVM> GetByFilter(Expression<Func<UsuarioEnt, bool>> predicate);
         List<UsuarioVM> GetPaged(Expression<Func<UsuarioEnt, bool>> predicate, int page, int take);
+        UsuarioVM Add(UsuarioVM obj);
+        void Update(UsuarioVM obj, int id);
     }
 }

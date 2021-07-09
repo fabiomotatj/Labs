@@ -11,5 +11,7 @@ namespace IOC.Bus.Interfaces
     {
         List<UsuarioVM> GetUsuarios();
         List<UsuarioVM> GetPaged(int page, int take);
+        int Add(UsuarioVM usuario);
+        void Update(UsuarioVM obj, int id);
     }
 }

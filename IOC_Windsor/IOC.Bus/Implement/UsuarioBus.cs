@@ -31,6 +31,29 @@ namespace IOC.Bus.Implement
             }
         }
 
+        public int Add(UsuarioVM usuario)
+        {
+            try
+            {
+                return _usuarioDal.Add(usuario).Id;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void Update(UsuarioVM usuario, int id)
+        {
+            try
+            {
+                 _usuarioDal.Update(usuario, id);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public List<UsuarioVM> GetPaged(int page, int take)
         {
             try
