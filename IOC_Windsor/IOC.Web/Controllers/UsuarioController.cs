@@ -29,14 +29,6 @@ namespace IOC.Web.Controllers
             
         }
 
-        /// <summary>
-        /// Register a new user on application
-        /// </summary>
-        /// <param name="page">Pagina que queremos retornar</param>
-        /// <param name="take">Quantidade de registros por página</param>
-        /// <remarks>Adds new user to application and grant access</remarks>
-        /// <response code="400">Bad Request</response>
-        /// <response code="500">Internal Server Error</response>
         [HttpGet]
         public IEnumerable<UsuarioVM> GetPaged(int page, int take)
         {
