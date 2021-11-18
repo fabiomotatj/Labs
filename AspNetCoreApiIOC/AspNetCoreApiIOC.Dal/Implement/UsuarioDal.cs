@@ -3,6 +3,7 @@ using AspNetCoreApiIOC.Ent;
 using AspNetCoreApiIOC.VM;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,15 +14,22 @@ namespace AspNetCoreApiIOC.Dal.Implement
 {
     public class UsuarioDal:Repository<UsuarioEnt,UsuarioVM>, IUsuarioDal
     {
-
-        public UsuarioDal(DataContext dc):base(dc)
+        private IConfiguration config;
+        public UsuarioDal(DataContext dc, IConfiguration Configuration):base(dc)
         {
-            
+            config = Configuration;
         }
         public async Task<IEnumerable<UsuarioVM>> ListaUsuario()
         {
             try
             {
+
+                var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
+                optionsBuilder.UseSqlServer(this.config.GetConnectionString("ModelDev"));
+
+                DataContext dbContext = new DataContext(optionsBuilder.Options);
+
+                var ret1 = dbContext.Usuario.ToListAsync();
 
                 var ret = await _dataContext.Usuario.ToListAsync();
 
@@ -106,7 +114,9 @@ namespace AspNetCoreApiIOC.Dal.Implement
 
                 var ret = await _dataContext.SistemaPerfil
                                 .Where(x => x.IdSistema == idSistema)
-                                .Include(x=> x.Perfil).ToListAsync();
+                                .Include(x=> x.Perfil)
+                                .Include(x=> x.Sistema)
+                                .ToListAsync();
 
                 var retorno = iMapper.Map<List<SistemaPerfilVM>>(ret);
 

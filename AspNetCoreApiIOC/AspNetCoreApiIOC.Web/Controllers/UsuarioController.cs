@@ -22,7 +22,31 @@ namespace AspNetCoreApiIOC.Web.Controllers
         [HttpGet]
         public async Task<IEnumerable<UsuarioVM>> ListaUsuario()
         {
+            string ret = retContStr("hhartr");
+
             return await _usuarioBus.ListaUsuarios();
+        }
+
+        private string retContStr(string str)
+        {
+            Dictionary<char, int> dic = new Dictionary<char, int>();
+
+            for(int i=0; i< str.Length; i++)
+            {
+                if (!dic.ContainsKey(str[i]))
+                    dic.Add(str[i], 1);
+                else
+                    dic[str[i]] += dic[str[i]]; 
+            }
+
+            string aux = "";
+
+            for (int i = 0; i < dic.Count; i++)
+            {
+                aux = aux + dic.ElementAt(i).Key + " - " + dic.ElementAt(i).Value + ",";
+            }
+                
+            return aux.Substring(0,aux.Length -1 );
         }
 
         [HttpPost]

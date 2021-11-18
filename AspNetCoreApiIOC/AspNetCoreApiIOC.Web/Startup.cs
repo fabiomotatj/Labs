@@ -30,6 +30,7 @@ namespace AspNetCoreApiIOC.Web
             DIContainer.ConfigureDI(services, Configuration);
 
             services.AddScoped<UsuarioBus>();
+            services.AddSingleton<IConfiguration>(Configuration);
 
         }
 

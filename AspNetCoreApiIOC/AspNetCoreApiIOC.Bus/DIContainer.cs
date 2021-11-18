@@ -16,6 +16,8 @@ namespace AspNetCoreApiIOC.Bus
             AspNetCoreApiIOC.Dal.DIContainer.ConfigureDI(services, Configuration);
 
             services.AddScoped<IUsuarioDal, UsuarioDal>();
+
+            services.AddSingleton<IConfiguration>(Configuration);
         }
     }
 }

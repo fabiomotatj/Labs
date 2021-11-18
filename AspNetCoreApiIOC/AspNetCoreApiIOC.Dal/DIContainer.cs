@@ -12,6 +12,8 @@ namespace AspNetCoreApiIOC.Dal
         public static void ConfigureDI(IServiceCollection services, IConfiguration Configuration)
         {
             services.AddDbContext<DataContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ModelDev")));
+
+            services.AddSingleton<IConfiguration>(Configuration);
         }
     }
 }
